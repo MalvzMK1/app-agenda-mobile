@@ -2,12 +2,11 @@ package br.senai.sp.jandira.appagenda.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.room.Entity
-import br.senai.sp.jandira.appagenda.databinding.ActivityMainBinding
+import br.senai.sp.jandira.appagenda.databinding.ActivityNewContactBinding
 
-class MainActivity : AppCompatActivity() {
+class NewContactActivity : AppCompatActivity() {
 
-  private lateinit var binding: ActivityMainBinding
+  private lateinit var binding: ActivityNewContactBinding
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
