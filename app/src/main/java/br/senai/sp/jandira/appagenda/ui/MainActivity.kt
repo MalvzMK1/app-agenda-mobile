@@ -1,8 +1,8 @@
 package br.senai.sp.jandira.appagenda.ui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.room.Entity
 import br.senai.sp.jandira.appagenda.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -11,6 +11,13 @@ class MainActivity : AppCompatActivity() {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
+
+    binding = ActivityMainBinding.inflate(layoutInflater)
     setContentView(binding.root)
+
+    binding.fbNewContact.setOnClickListener {
+      val openRegister = Intent(this, NewContactActivity::class.java)
+      startActivity(openRegister)
+    }
   }
 }
