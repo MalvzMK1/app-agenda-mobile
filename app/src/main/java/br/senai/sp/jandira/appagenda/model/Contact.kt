@@ -15,10 +15,11 @@ class Contact {
   var id = 0
 
   var name = ""
-  var telefone = ""
-  var photo: Drawable? = null
+  var phone = ""
+  var photo = ""
+  var email = ""
 
   // renomeando a coluna do banco
   @ColumnInfo(name = "birth_date")
-  var birthDate: LocalDate? = null
+  var birthDate = ""
 }

@@ -6,7 +6,9 @@ import br.senai.sp.jandira.appagenda.model.Contact
 
 class ContactRepository (context: Context) {
 
-  private val db = ContactDb.getDatabase(context).contactDao()
+  private val db = ContactDb
+    .getDatabase(context)
+    .contactDao()
 
   fun save(contact: Contact): Long {
     return db.save(contact)

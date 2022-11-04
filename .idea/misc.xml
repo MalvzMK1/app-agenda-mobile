@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/delete_button_background.xml" value="0.4185" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.34375" />
         <entry key="app/src/main/res/layout/activity_new_contact.xml" value="0.34375" />
+        <entry key="app/src/main/res/layout/contact_layout.xml" value="0.35266457680250785" />
       </map>
     </option>
   </component>
